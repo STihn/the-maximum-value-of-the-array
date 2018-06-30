@@ -1,12 +1,12 @@
 # the-maximum-value-of-the-array
-функция поиска максимального значения в массиве целых чисел
+функция поиска максимального значения в массиве целых чисел 
+javascript
 
 
-<p><meta charset="utf-8">
-<script>
+<p>
+<script><br>
 var arr = [700,30,40,10,1,8,300,102,1,400];
-
-//
+<br>
 function arrlen(arrin){
     var result = 0;
     for(var i = 0; i < arrin.length; i++)
