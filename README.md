@@ -2,7 +2,7 @@
 функция поиска максимального значения в массиве целых чисел
 
 
-<meta charset="utf-8">
+<p><meta charset="utf-8">
 <script>
 var arr = [700,30,40,10,1,8,300,102,1,400];
 
@@ -27,3 +27,4 @@ function maxout(arrin,arrln)
 
 alert(maxout(arr,arrlen(arr)));
 </script>
+</p>
