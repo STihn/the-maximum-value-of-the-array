@@ -8,7 +8,8 @@ javascript
 var arr = [700,30,40,10,1,8,300,102,1,400];
 <br>
 function arrlen(arrin){
-    var result = 0;
+ 
+ var result = 0;
     for(var i = 0; i < arrin.length; i++)
         if (arrin[i] != undefined)
           result++;
