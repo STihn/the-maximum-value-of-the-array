@@ -7,25 +7,24 @@ javascript
 <script><br>
 var arr = [700,30,40,10,1,8,300,102,1,400];
 <br>
-function arrlen(arrin){
- 
- var result = 0;
-    for(var i = 0; i < arrin.length; i++)
-        if (arrin[i] != undefined)
-          result++;
-    return result;
+function arrlen(arrin){<br>
+ var result = 0;<br>
+    for(var i = 0; i < arrin.length; i++)<br>
+        if (arrin[i] != undefined)<br>
+          result++;<br>
+    return result;<br>
 }
-//
-function maxout(arrin,arrln)
-{
-  var max=0;
-  for (var i = 0; i < arrln; i++)
-    {
-      if(arr[i]>max){max=arr[i];}  
-    }
-  return max;
-}
+<br>
+function maxout(arrin,arrln)<br>
+{<br>
+  var max=0;<br>
+  for (var i = 0; i < arrln; i++)<br>
+    {<br>
+      if(arr[i]>max){max=arr[i];}  <br>
+    }<br>
+  return max;<br>
+}<br>
 
-alert(maxout(arr,arrlen(arr)));
+alert(maxout(arr,arrlen(arr)));<br>
 </script>
 </p>
