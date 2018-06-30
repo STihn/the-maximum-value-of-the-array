@@ -3,7 +3,7 @@
 
 
 
-<meta charset="utf-8">
+
 <script>
 var arr = [700,30,40,10,1,8,300,102,1,400];
 
